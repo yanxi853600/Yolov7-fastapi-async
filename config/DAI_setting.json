@@ -1,0 +1,21 @@
+{
+    "AI_Setting":
+    {   
+        "ip": "127.0.0.1",
+        "port" : 9988,
+        "cam_ip":"rtsp://",
+        "weights" : "./weights/best.pt",
+        "output_video_path": "./video/",
+        "conf_thres" : 0.4,
+        "cal_iou" : 0.5,
+        "iou_thres":0.4,
+        "img_size" : 640,
+        "device": 0,
+        "track_id": "False"
+    },
+    "Video_Setting":
+    {
+        "show_video": "True",
+        "save_video": "True"
+    }
+}
